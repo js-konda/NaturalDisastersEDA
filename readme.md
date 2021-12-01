@@ -1,4 +1,4 @@
-Initial ReadMe file
+![alt text](image/bubble.png)
 
 Exploratory Analysis of Climate Change, Natural Disasters, and Public Awareness
 Problem: 
