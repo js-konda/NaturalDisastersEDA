@@ -27,16 +27,23 @@ Capital over gdp. This dataset contains columns and 19879 rows
 <h2>File Structure</h2>
 
     .
-    ├── Code                # .py files that contains our code to generate the graph
-    │   ├──...
-    │   ├──...
-    │   └──...
-    ├── dataset				# all the datasets we used
-    │   ├── ...
-    │   └── ...
-    ├── image                # the graph we generated
-    │   ├── ...
-    │   └── ...
+    ├── Code                                # .py files that contains our code to generate the graph
+    │   ├──__init__.py
+    │   ├──bubble.py
+    │   ├──major_disaster_analysis.py
+    │   ├──natural_disaster_climate_news_analysis.py
+    │   ├──pies.py  
+    │   ├──stacked_decadal.py
+    │   └──stacked_plots.py  
+    ├── dataset				                # all the datasets we used
+    │   ├── TelevisionNews
+    |   |   └──*.CSV
+    │   ├──1900-2021_DISASTERS.xlsx - emdat data.csv
+    │   ├──1970-2021_DISASTERS.xlsx - emdat data.csv
+    │   └──gdp_per_capita.csv
+    ├── image                               # the graph we generated
+    │   └── bubble.png
+    │   
     ├── Final presentation PPT.pdf          # pdf file for our presentation
     ├── Final_project_code.ipynb		    # notebook to display all our visualizations
     ├── readme.md							# readme file
