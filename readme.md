@@ -6,13 +6,13 @@
 
 By Jaya Konda, Pujika Kumar, Gaopo Huang, Jiawei Zheng, Andy Liu
 
-<h2>Problem: </h2>
+<h2>Problem </h2>
 
 Can natural disasters increase public awareness of climate change?
 Is there any trend in natural disaster incidents and casualties from natural disasters over the years? 
 How impactful is the media interest of climate change over the natural disaster incidents?
 
-<h2>Dataset:</h2>
+<h2>Dataset</h2>
 
 Natural Disaster incident over years ( https://www.kaggle.com/brsdincer/all-natural-disasters-19002021-eosdis). This dataset contains 2 csv files, with each containing 45 columns having information about year, disaster type, country, etc. 
 
@@ -42,13 +42,32 @@ Our primary motivation was to analyse the natural disasters to find if their occ
 
 <h2>Required Packages</h2>
 
--pandas
+* pandas
 
--numpy
+```
+pip install pandas
+```
 
--matplotlib
+* numpy
 
--geopandas
+```
+pip install numpy
+```
 
--seaborn
+* matplotlib
 
+```
+pip install matplotlib
+```
+
+* geopandas
+
+```
+pip install geopandas
+```
+
+* seaborn
+
+```
+pip install seaborn
+```
