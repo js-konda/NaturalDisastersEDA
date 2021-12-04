@@ -3,7 +3,9 @@
 
 # In[ ]:
 
-
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
 def occurence_pie(data):
     '''
     :parameter data dataframe
