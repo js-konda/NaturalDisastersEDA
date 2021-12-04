@@ -1,10 +1,13 @@
 Exploratory Analysis of Natural Disasters and Public Awareness
 
 ![alt text](image/bubble.png)
+
 ##Team Members
+
 By Jaya Konda, Pujika Kumar, Gaopo Huang, Jiawei Zheng, Andy Liu
 
 ##Problem: 
+
 Can natural disasters increase public awareness of climate change?
 Is there any trend in natural disaster incidents and casualties from natural disasters over the years? 
 How impactful is the media interest of climate change over the natural disaster incidents?
@@ -33,9 +36,14 @@ Steps
 4.Finish up on the codes, test for bugs, and create the ppt.
 
 ##Required Packages
+
 -pandas
+
 -numpy
+
 -matplotlib
+
 -geopandas
+
 -seaborn
 
