@@ -26,6 +26,9 @@ Proposed Solution and Real world Application:
 We aim to explore the correlation between climate change and media interest and sentiment, along with the change of temperature, the number of natural disaster incidents and casualties over years. The solution can be used to extract and visualize information from dataset like natural disaster incidents, the attention of these natural disasters and climate change from media, etc. 
 This analysis can be used to get valuable insights such as: if the occurrence of natural disasters increase public awareness of climate change, and whether media interest/public awareness  makes observable impact on the climate change?
 
+<h2> Motivation </h2>
+Our primary motivation was to analyse the natural disasters to find if their occurrence or the deaths caused by them have stirred up any awareness about the climate change. Along the way, we have tried to draw important insights about the trends of natural disasters, and their impact on human lives.
+
 
 Steps
 
