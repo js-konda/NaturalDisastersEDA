@@ -30,7 +30,7 @@ This analysis can be used to get valuable insights such as: if the occurrence of
 Our primary motivation was to analyse the natural disasters to find if their occurrence or the deaths caused by them have stirred up any awareness about the climate change. Along the way, we have tried to draw important insights about the trends of natural disasters, and their impact on human lives.
 
 
-Steps
+<h2>Steps</h2>
 
 1.Deeper analysis on the datasets found and start reading datasets into pandas.Errors check if data is being read incorrectly.
 
