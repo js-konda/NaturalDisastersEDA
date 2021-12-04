@@ -41,6 +41,16 @@ Capital over gdp. This dataset contains columns and 19879 rows
 <br />├── readme.md							# readme file
 <br />└──.gitignore								# git ignore file to keep the repo clean
 
+
+    .
+    ├── build                   # Compiled files (alternatively `dist`)
+    ├── docs                    # Documentation files (alternatively `doc`)
+    ├── src                     # Source files (alternatively `lib` or `app`)
+    ├── test                    # Automated tests (alternatively `spec` or `tests`)
+    ├── tools                   # Tools and utilities
+    ├── LICENSE
+    └── README.md
+
 <h2>Required Packages</h2>
 
 * pandas
