@@ -22,6 +22,7 @@ Natural Disaster incident over years ( https://www.kaggle.com/brsdincer/all-natu
 Media (specifically TV news) interest in climate change over years: (https://blog.gdeltproject.org/a-new-dataset-for-exploring-climate-change-narratives-on-television-news-2009-2020/). This data contains 418 csv files, with each containing information about TV news reported on these natural disasters. 
 
 Capital over gdp. This dataset contains columns and 19879 rows
+(https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD)
 
 <h2>File Structure</h2>
 
