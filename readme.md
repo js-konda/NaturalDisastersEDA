@@ -1,6 +1,9 @@
-Initial ReadMe file
+Exploratory Analysis of Natural Disasters and Public Awareness
 
-Exploratory Analysis of Climate Change, Natural Disasters, and Public Awareness
+![alt text](image/bubble.png)
+
+By Jaya Konda, Pujika Kumar, Gaopo Huang, Jiawei Zheng, Andy Liu
+
 Problem: 
 Can natural disasters increase public awareness of climate change?
 Is there any trend in natural disaster incidents and casualties from natural disasters over the years? 
