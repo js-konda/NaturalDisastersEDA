@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import geopandas    
 
 
-def Death_vs_GDP(natural_disaster_df, gdp_df):
+def death_vs_gdp(natural_disaster_df, gdp_df):
     """
     Plots a graph that shows the Total Death counts vs the GDP per capita value
     for disasters that caused over 5000 deaths
@@ -26,7 +26,7 @@ def Death_vs_GDP(natural_disaster_df, gdp_df):
     plt.show()
     return 
 
-def Major_Disaster_Distribution(natural_disaster_df):
+def major_disaster_distribution(natural_disaster_df):
     """
     Plots a world map that displays the density of the countries that major disasters
     took place
