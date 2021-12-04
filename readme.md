@@ -58,4 +58,4 @@ pip install seaborn
 ```
 
 <h2> Visualization </h2>
-[Final_project_code.ipynb](Final_project_code.ipynb)
+[Final_project_code](https://github.com/js-konda/ece-143/blob/main/Final_project_code.ipynb)
