@@ -1,3 +1,5 @@
+import pandas as pd 
+
 def stacked_plot_occurence_decadal(df):
     """
     df: pandas DataFrame

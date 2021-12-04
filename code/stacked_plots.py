@@ -1,3 +1,5 @@
+import pandas as pd 
+
 def stacked_plot_damages(df):
     """
     df: pandas DataFrame

@@ -126,6 +126,7 @@ def make_disaster_group(df, groupby='occurrence',sum_month=3):
     assert isinstance(df, pd.DataFrame)
     assert isinstance(sum_month,int) and 1<=sum_month<=12
     assert isinstance(groupby, str) and (groupby in df.columns or groupby == 'occurrence')
+    df = disaster_data_cleaning_for_news_analysis(df)
     major_disaster_type = ['Drought','Earthquake','Epidemic','Extreme temperature','Flood','Landslide',
                             'Storm','Volcanic activity','Wildfire']
     grouped = df.groupby(['startdate','Disaster Type'])
