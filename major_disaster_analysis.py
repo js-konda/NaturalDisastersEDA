@@ -6,6 +6,8 @@ import geopandas
 
 def death_vs_gdp(natural_disaster_df, gdp_df):
     """
+    :natural_disaster_df The natural disaster dataframe
+    :gdp_df The GAP per capita dataframe
     Plots a graph that shows the Total Death counts vs the GDP per capita value
     for disasters that caused over 5000 deaths
     """
@@ -28,6 +30,7 @@ def death_vs_gdp(natural_disaster_df, gdp_df):
 
 def major_disaster_distribution(natural_disaster_df):
     """
+    :natural_disaster_df The natural disaster dataframe
     Plots a world map that displays the density of the countries that major disasters
     took place
     """
