@@ -21,20 +21,9 @@ Natural Disaster incident over years ( https://www.kaggle.com/brsdincer/all-natu
 
 Media (specifically TV news) interest in climate change over years: (https://blog.gdeltproject.org/a-new-dataset-for-exploring-climate-change-narratives-on-television-news-2009-2020/). This data contains 418 csv files, with each containing information about TV news reported on these natural disasters. 
 
-Earth temperature over years (https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data?select=GlobalLandTemperaturesByMajorCity.csv) This dataset contains 5 csv files, with each containing temperature data over different regions.
-
 Capital over gdp. This dataset contains columns and 19879 rows
 
 
-<h2>Steps</h2>
-
-1.Deeper analysis on the datasets found and start reading datasets into pandas.Errors check if data is being read incorrectly.
-
-2.Use mathematical formulas to see if there any relation between earth temperature, nature disasters, and climate awareness. 
-
-3.Visualize the information we find by plots and graphs.
-
-4.Finish up on the codes, test for bugs, and create the ppt.
 
 <h2>Required Packages</h2>
 
