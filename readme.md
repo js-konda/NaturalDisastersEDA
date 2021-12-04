@@ -1,4 +1,4 @@
-Exploratory Analysis of Natural Disasters and Public Awareness
+<h1>Exploratory Analysis of Natural Disasters and Public Awareness</h1>
 
 ![alt text](image/bubble.png)
 
