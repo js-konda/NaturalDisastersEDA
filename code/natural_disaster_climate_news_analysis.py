@@ -5,6 +5,31 @@ import datetime
 import matplotlib.pyplot as plt
 import matplotlib.colors as cls
 
+def all_occurrences(df): 
+    """
+    Show all occurrences of natural disasters of the dataset as visualization
+    by each disaster type
+
+    :param df: natural disaster dataset dataframe
+    :type df: pd.Dataframe
+    """
+    # Group the dataframe by the disaster type
+    result = df.groupby("Disaster Type").size().sort_values(ascending=False)
+    result.index = [ind.strip() for ind in result.index]
+    # Plot the result 
+    fig,ax = plt.subplots(figsize=(10, 6), dpi=80)
+    ax.bar(result.index, result.values, color='steelblue')
+    # Do not show axis
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    ax.spines['left'].set_visible(False)
+    ax.spines['bottom'].set_visible(False)
+    plt.tick_params(bottom = False, left = False)
+    plt.setp( ax.xaxis.get_majorticklabels(), rotation=45, ha="right" );
+    plt.title("Occurence of natural disasters over the past century",size=14,fontweight="bold")
+    ax.set_ylabel('Number of occurences', rotation=90)
+
+
 def date_transform(date_list):
     """
     Transform date from a list of [year,month,day] or [year, month] to parse-able datetime
