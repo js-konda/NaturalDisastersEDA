@@ -89,7 +89,7 @@ def stacked_plot_occurence_decadal(df):
     rec_dis.reset_index(inplace=True) # Now you're back in the format you needed originally, with `Class` as a column and each row as a point in space
 
     rec_dis = rec_dis.fillna(0)
-    rec_dis.drop('id', axis=1)
+    rec_dis=rec_dis.drop('id', axis=1)
 
     rec_dis=rec_dis.groupby('Decade', as_index=False).agg(lambda x: x.sum())
     rec_dis.set_index('Decade', inplace=True)
