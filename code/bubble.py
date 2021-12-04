@@ -6,6 +6,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt 
 import matplotlib.colors as cls
+import numpy as np
 
 def bubble(data):
     '''
